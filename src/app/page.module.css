@@ -284,6 +284,11 @@
     text-align: center;
   }
 
+  .slider-content {
+    width: 45rem;
+  }
+  
+
   .feature-information {
     justify-content: center;
     align-items: center;
@@ -303,9 +308,17 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .buttons {
     flex-direction: column;
+  }
+
+  .slider-content {
+    width: 20rem;
+  }
+  .slider-items {
+    margin-left: -250px;
+    gap: 1px;
   }
 
   .add {

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Loti',
-  description: 'Loti, A Multi-Purpose Bot.',
+  description: 'A very customizable multipurpose bot for welcome image, In-depth logs, Social commands, Moderation and many more ...',
 }
 
 export default function RootLayout({
