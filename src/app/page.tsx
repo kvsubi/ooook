@@ -90,8 +90,8 @@ export default function Home() {
             </div>
             <span>Welcome Messages</span>
           </div>
-          <h1>Let's Welcome New Members With Style</h1>
-          <p>Create your own welcome images, which include the user's username and avatar, as well as a customizable background image!</p>
+            <h1>Let&apos;s Welcome New Members With Style</h1>
+            <p>Create your own welcome images, which include the user&apos;s username and avatar, as well as a customizable background image!</p>
           <a href="#learn">Learn More About Welcome & Goodbye</a>
         </div>
       </motion.div>
@@ -111,8 +111,8 @@ export default function Home() {
             <span>Embed Messages</span>
           </div>
           <h1>Easily create embeds for your server!</h1>
-          <p>Illustrate your creativity in embeds by using ProBot's simple customization and sending it to any preferred channel.</p>
-          <a href="#learn">Learn More About Embed Messages</a>
+            <p>Illustrate your creativity in embeds by using ProBot&apos;s simple customization and sending it to any preferred channel.</p>
+            <a href="#learn">Learn More About Embed Messages</a>
         </div>
         <img src="/blank.svg" />
       </motion.div>
@@ -132,8 +132,8 @@ export default function Home() {
             </div>
             <span>Welcome Messages</span>
           </div>
-          <h1>Let's Welcome New Members With Style</h1>
-          <p>Create your own welcome images, which include the user's username and avatar, as well as a customizable background image!</p>
+            <h1>Let&apos;s Welcome New Members With Style</h1>
+            <p>Create your own welcome images, which include the user&apos;s username and avatar, as well as a customizable background image!</p>
           <a href="#learn">Learn More About Welcome & Goodbye</a>
         </div>
       </motion.div>
