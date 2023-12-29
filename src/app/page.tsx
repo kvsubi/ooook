@@ -14,7 +14,7 @@ export default function Home() {
   const inView2 = useInView(ref2)
 
   return (
-    <>
+    <div className={"content"}>
       <div className={styles["main-content"]}>
         <div className={styles["main-new"]}>
           <p>New: Bot Re-Written in TypeScript</p>
@@ -137,6 +137,6 @@ export default function Home() {
           <a href="#learn">Learn More About Welcome & Goodbye</a>
         </div>
       </motion.div>
-    </>
+    </div>
   )
 }

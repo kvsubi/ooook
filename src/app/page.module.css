@@ -287,9 +287,34 @@
   .feature-information {
     justify-content: center;
     align-items: center;
+    gap: 1rem;
   }
 
   .feature img {
     order: -1;
+  }
+
+  .description {
+    font-size: smaller;
+  }
+
+  .trusted-by-title {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  .add {
+    width: 20rem;
+    text-align: center;
+  }
+
+  .browse {
+    width: 20rem;
+    text-align: center;
   }
 }
