@@ -40,9 +40,9 @@ const Footer = () => {
                     <div className={styles["footer-option"]}>
                         <span className={"title"}>Rules</span>
                         <div className={styles["footer-links"]}>
-                            <a href="#">Terms Of Use</a>
-                            <a href="#">Privacy Policy</a>
-                            <a href="#">Refund Policy</a>
+                            <a href="terms">Terms Of Use</a>
+                            <a href="privacy">Privacy Policy</a>
+                            <a href="refund">Refund Policy</a>
                         </div>
                     </div>
                 </div>

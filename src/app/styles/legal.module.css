@@ -1,0 +1,63 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2em;
+}
+
+.legal {
+    background-color: #171821;
+    border-radius: 12px;
+
+    width: 100em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 5em;
+
+    gap: 1em;
+}
+
+.legal h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.legal h1:before {
+    content: "#";
+    display: inline-block;
+    color: #343645;
+    padding-right: 10px;
+}
+
+.legal p {
+    color: #8d91a9;
+    font-weight: 620;
+}
+
+.legal .title {
+    font-size: 45px;
+    font-weight: 800;
+}
+.effective-date {
+    font-style: italic;
+}
+
+@media screen and (max-width: 1000) {
+    .legal {
+        padding: 2em;
+    }
+}
+
+@media screen and (max-width: 850) {
+    .legal {
+        padding: 5em;
+    }
+    .content {
+        padding: 1em;
+    }
+}
