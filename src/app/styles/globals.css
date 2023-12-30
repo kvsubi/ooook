@@ -42,6 +42,10 @@ body {
     overflow-x: hidden;
     font-family: "Manrope", sans-serif;
     font-family: "Nunito", sans-serif;
+
+    scroll-behavior: smooth;
+
+    cursor: url("/cursor.png"), auto;
 }
 
 body {

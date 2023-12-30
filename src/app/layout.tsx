@@ -3,6 +3,7 @@ import { Inter } from "next/font/google"
 import "./styles/globals.css"
 import Navbar from "./components/global/Navbar"
 import Footer from "./components/global/Footer"
+import Canvas from "./components/global/Canvas"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Navbar />
                 {children}
                 <Footer />
+                <Canvas />
             </body>
         </html>
     )
