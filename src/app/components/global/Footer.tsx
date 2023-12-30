@@ -32,8 +32,8 @@ const Footer = () => {
                     <div className={styles["footer-option"]}>
                         <span className={"title"}>Other Links</span>
                         <div className={styles["footer-links"]}>
-                            <a href="#">Twitter</a>
-                            <a href="#">Discord</a>
+                            <a href="https://twitter.com/TryLoti">X (Formerly Twitter)</a>
+                            <a href="https://discord.gg/invite/loti">Discord</a>
                             <a href="#">Top.gg</a>
                         </div>
                     </div>

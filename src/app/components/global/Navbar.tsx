@@ -18,10 +18,10 @@ const Navbar = () => {
                 <div className={styles["navbar-link"]}>
                     <span>Resources</span>
                 </div>
-                <div className={styles["navbar-premium"]}>
+                <a href="#pricing" className={styles["navbar-premium"]}>
                     <span>Premium</span>
                     <Image src="/stars.png" width="20" height="20" alt="stars" />
-                </div>
+                </a>
             </div>
             <div className={styles["navbar-right"]}>
                 <a href="#" className={styles["navbar-login"]}>

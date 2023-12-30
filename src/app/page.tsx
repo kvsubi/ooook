@@ -21,8 +21,8 @@ export default function Home() {
                 </div>
                 <h1 className={styles["title"]}>Loti, A Multi-Purpose Bot.</h1>
                 <p className={styles["description"]}>
-                    A very customizable multipurpose bot for welcome image, In-depth logs, Social
-                    commands, Moderation and many more ...
+                    Loti is a versatile bot, offering features like moderation, social commands, and
+                    much more, making it perfect for all your server needs.
                 </p>
                 <div className={styles["buttons"]}>
                     <a href="https://discord.gg/invite/loti" className={styles["add"]}>
@@ -182,8 +182,8 @@ export default function Home() {
                     </div>
                     <h1>Let&apos;s Welcome New Members With Style</h1>
                     <p>
-                        Create your own welcome images, which include the user&apos;s username and
-                        avatar, as well as a customizable background image!
+                        Welcome new members in style with Loti! Our feature-rich platform allows you
+                        to create stunning welcome messages that leave a lasting impression
                     </p>
                     <a href="#learn">Learn More About Welcome & Goodbye</a>
                 </div>
@@ -210,8 +210,9 @@ export default function Home() {
                     </div>
                     <h1>Easily create embeds for your server!</h1>
                     <p>
-                        Illustrate your creativity in embeds by using ProBot&apos;s simple
-                        customization and sending it to any preferred channel.
+                        Loti offers a simple yet powerful embed customization feature that allows
+                        you to showcase your creativity. With just a few clicks, you can design
+                        visually appealing embed messages and send them to your preferred channels.
                     </p>
                     <a href="#learn">Learn More About Embed Messages</a>
                 </div>

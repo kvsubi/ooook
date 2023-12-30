@@ -26,15 +26,22 @@
 .navbar-link {
     font-weight: 600;
     color: #ffffffcc;
+    padding: 0.5em 1em;
 }
 
 .navbar-premium {
     font-weight: 600;
     color: rgb(255, 193, 79);
+    padding: 0.5em 1em;
 
     display: flex;
     align-items: center;
     gap: 0.2em;
+}
+
+.navbar-premium:hover {
+    background-color: rgba(255, 204, 110, 0.096);
+    border-radius: 12px;
 }
 
 .navbar-login {
