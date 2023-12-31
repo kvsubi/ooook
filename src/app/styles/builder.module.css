@@ -1,19 +1,18 @@
 .content {
     display: flex;
-    padding: 10em;
+    padding: 2%;
 
-    gap: 5em;
+    gap: 5%;
 }
 
 .main-content {
     border: 1px solid #ffffff13;
     background-color: rgb(14, 14, 22);
-    width: 100em;
+    width: 100%;
     height: 50em;
 
     border-radius: 15px;
     overflow: hidden;
-    overflow-y: scroll;
 }
 
 .messages {
@@ -191,11 +190,17 @@
     height: 200px;
     border-radius: 12px;
     overflow: hidden;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .sidebar-top-container {
+    display: flex;
     position: relative;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
     height: 100%;
 }
 
@@ -209,7 +214,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 40%; /* Adjusted height to accommodate padding */
+    height: 40%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.308);
     z-index: 2;
@@ -246,7 +251,63 @@
 }
 
 .sidebar-content {
-    width: 450px;
+    display: flex;
     padding: 2em 0em 5em;
     border-radius: 15px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-content h4 {
+    width: 80%;
+}
+
+@media screen and (max-width: 1400px) {
+    .embed .embed-thumbnail {
+        width: 50%;
+    }
+    
+    .embed .embed-thumbnail-i {
+        width: 50%;
+        height: 35%;
+    }    
+}
+
+@media screen and (max-width: 1000px) {
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .messages {
+        padding: 3em;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .messages {
+        padding: 1em;
+    }
+
+    .message-content {
+        padding: 2em 0.1em;
+    }
+
+    .embed {
+        gap: 0;
+    }
+
+    .embed .embed-thumbnail {
+        width: 50%;
+    }
+    
+    .embed .embed-thumbnail-i {
+        width: 50%;
+        height: 35%;
+    }    
 }
