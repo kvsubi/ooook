@@ -37,28 +37,44 @@ export default function Builder() {
                                         <span>This is author bs</span>
                                     </div>
                                     <span className={styles["embed-title"]}>This is the title</span>
-                                    <span className={styles["embed-description"]}>This is a description</span>
+                                    <span className={styles["embed-description"]}>
+                                        This is a description
+                                    </span>
                                     <div className={styles["fields-inline"]}>
                                         <div className={styles["field"]}>
                                             <span className={styles["field-name"]}>Title</span>
-                                            <span className={styles["field-description"]}>Value</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
                                         </div>
                                         <div className={styles["field"]}>
                                             <span className={styles["field-name"]}>Title</span>
-                                            <span className={styles["field-description"]}>Value</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
                                         </div>
                                         <div className={styles["field"]}>
                                             <span className={styles["field-name"]}>Title</span>
-                                            <span className={styles["field-description"]}>Value</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
                                         </div>
                                         <div className={styles["field"]}>
                                             <span className={styles["field-name"]}>Title</span>
-                                            <span className={styles["field-description"]}>Value</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
                                         </div>
                                     </div>
-                                    <img src="https://i.imgur.com/7kX3Ez8.png" className={styles["embed-image"]} />
+                                    <img
+                                        src="https://i.imgur.com/7kX3Ez8.png"
+                                        className={styles["embed-image"]}
+                                    />
                                 </div>
-                                <img src="https://i.pinimg.com/736x/f5/22/be/f522bec617497a43cabb94accdd2367b.jpg" className={styles["embed-thumbnail-i"]} />
+                                <img
+                                    src="https://i.pinimg.com/736x/f5/22/be/f522bec617497a43cabb94accdd2367b.jpg"
+                                    className={styles["embed-thumbnail-i"]}
+                                />
                             </div>
                         </div>
                     </div>

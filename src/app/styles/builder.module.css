@@ -83,7 +83,6 @@
     color: rgb(226, 226, 226);
 }
 
-
 .embed-main {
     display: flex;
     flex-direction: column;
@@ -137,9 +136,9 @@
     flex-direction: column;
 
     margin-top: -1em;
-    
+
     gap: 1em;
-    
+
     padding: 1em 5em;
 }
 
@@ -156,7 +155,7 @@
 .tag {
     background-color: rgba(74, 189, 255, 0.897);
     padding: 5px 10px;
-    
+
     border-radius: 8px;
 
     font-weight: 600;
@@ -173,7 +172,6 @@
     font-weight: 600;
     font-size: 25px;
 }
-
 
 .main-top h4:before {
     content: "#";
@@ -242,7 +240,6 @@
     background-color: rgba(255, 255, 255, 0.103);
 }
 
-
 .sidebar-left h4:before {
     content: "#";
     display: inline-block;
@@ -267,11 +264,11 @@
     .embed .embed-thumbnail {
         width: 50%;
     }
-    
+
     .embed .embed-thumbnail-i {
         width: 50%;
         height: 35%;
-    }    
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -287,7 +284,6 @@
         padding: 3em;
     }
 }
-
 
 @media screen and (max-width: 600px) {
     .messages {
@@ -305,9 +301,9 @@
     .embed .embed-thumbnail {
         width: 50%;
     }
-    
+
     .embed .embed-thumbnail-i {
         width: 50%;
         height: 35%;
-    }    
+    }
 }
