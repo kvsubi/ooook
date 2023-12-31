@@ -1,0 +1,252 @@
+.content {
+    display: flex;
+    padding: 10em;
+
+    gap: 5em;
+}
+
+.main-content {
+    border: 1px solid #ffffff13;
+    background-color: rgb(14, 14, 22);
+    width: 100em;
+    height: 50em;
+
+    border-radius: 15px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.messages {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+
+    padding: 5em;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+}
+
+.embed {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+
+    border: 0px;
+    border-left: 5px solid;
+    border-image: linear-gradient(45deg, #605ceb, #ff5e7d);
+    border-image-slice: 1;
+
+    width: 50%;
+
+    padding: 2em;
+
+    background-color: rgb(15, 14, 22);
+
+    border-radius: 5px;
+
+    justify-content: space-between;
+}
+
+.fields-inline {
+    display: grid;
+    grid-template-columns: repeat(4, 4em);
+
+    padding: 1em 0em;
+}
+
+.embed-image {
+    display: flex;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden; /* Added overflow property */
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-title {
+    font-weight: 750;
+}
+
+.field-description {
+    color: rgb(226, 226, 226);
+}
+
+
+.embed-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.embed-title {
+    font-weight: 750;
+}
+
+.embed-description {
+    color: rgb(226, 226, 226);
+}
+
+.embed .embed-thumbnail {
+    display: flex;
+    width: 20%;
+    border-radius: 8px;
+}
+
+.embed .embed-thumbnail-i {
+    display: flex;
+    width: 35%;
+    height: 35%;
+    border-radius: 8px;
+}
+
+.embed-author {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    padding: 0.2em 0em 0.8em;
+
+    font-weight: 600;
+}
+
+.embed-author img {
+    width: 30px;
+    height: 30px;
+}
+
+.message-user {
+    display: flex;
+    gap: 1em;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.message-content {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: -1em;
+    
+    gap: 1em;
+    
+    padding: 1em 5em;
+}
+
+.message-user img {
+    width: 65px;
+    height: 65px;
+}
+
+.user {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.tag {
+    background-color: rgba(74, 189, 255, 0.897);
+    padding: 5px 10px;
+    
+    border-radius: 8px;
+
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main-top h4 {
+    border-bottom: 1px solid #ffffff13;
+}
+
+.main-top h4 {
+    padding: 1.2em;
+    color: rgba(255, 255, 255, 0.836);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.main-top h4:before {
+    content: "#";
+    display: inline-block;
+    color: #ffffff94;
+    padding-right: 10px;
+}
+
+.sidebar-top {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    width: 450px;
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.sidebar-top-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar-top img {
+    width: 100%;
+    height: auto;
+}
+
+.sidebar-top-title {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40%; /* Adjusted height to accommodate padding */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.308);
+    z-index: 2;
+}
+
+.sidebar-top-title span {
+    font-weight: 800;
+    font-size: 25px;
+    padding: 1em 1.5em;
+}
+
+.sidebar-left h4 {
+    padding-top: 1em;
+    color: rgba(255, 255, 255, 0.664);
+    font-weight: 450;
+    font-size: 25px;
+
+    padding: 1em;
+
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 15px;
+}
+
+.sidebar-left h4:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+
+.sidebar-left h4:before {
+    content: "#";
+    display: inline-block;
+    color: #686868;
+    padding-right: 10px;
+}
+
+.sidebar-content {
+    width: 450px;
+    padding: 2em 0em 5em;
+    border-radius: 15px;
+}
