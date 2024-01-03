@@ -2,23 +2,23 @@ import styles from "../styles/commands.module.css"
 import commandsData from "../../../public/commands.json"
 
 export default function Refund() {
-    const commandsList = commandsData.map((command) => ({
+    const commandsList = commandsData.map(command => ({
         name: command.name,
         category: command.category,
         description: command.description,
-        permission: command.permission,
-    }));
-
-    console.log(commandsList);
+        permission: command.permission
+    }))
     return (
         <section className={styles["content"]}>
             <span className={styles["title"]}>Commands (Temp)</span>
             <div className={styles["commands"]}>
-            {commandsList.map((command, index) => (
+                {commandsList.map((command, index) => (
                     <div key={index} className={styles["command"]}>
                         <div className={styles["command-top-content"]}>
                             <span className={styles["command-title"]}>{command.name}</span>
-                            <span className={styles["command-description"]}>{command.description}</span>
+                            <span className={styles["command-description"]}>
+                                {command.description}
+                            </span>
                         </div>
                         <hr />
                         <div className={styles["command-content"]}>
@@ -34,7 +34,7 @@ export default function Refund() {
                             </div>
                         </div>
                     </div>
-            ))}
+                ))}
             </div>
         </section>
     )

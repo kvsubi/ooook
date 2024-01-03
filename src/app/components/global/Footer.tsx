@@ -1,5 +1,6 @@
 import styles from "../../styles/footer.module.css"
 import Image from "next/image"
+import Link from "next/link"
 import Loti from "../../../../public/loti-pfp.png"
 
 const Footer = () => {
@@ -7,10 +8,10 @@ const Footer = () => {
         <div className={styles["footer"]}>
             <div className={styles["footer-content"]}>
                 <div className={styles["footer-left"]}>
-                    <a href="/">
+                    <Link href="/">
                         <Image src={Loti} width="50" height="50" alt="logo" />
                         <span>Loti</span>
-                    </a>
+                    </Link>
                     <div className={styles["footer-description"]}>
                         <span>
                             A very customizable multipurpose bot for welcome image, In-depth logs,
@@ -22,27 +23,27 @@ const Footer = () => {
                     <div className={styles["footer-option"]}>
                         <span className={"title"}>Website Pages</span>
                         <div className={styles["footer-links"]}>
-                            <a href="#">Membership</a>
-                            <a href="#">Dashboard</a>
-                            <a href="#">Docs</a>
-                            <a href="#">Premium</a>
-                            <a href="#">Commands</a>
+                            <Link href="#">Membership</Link>
+                            <Link href="#">Dashboard</Link>
+                            <Link href="#">Docs</Link>
+                            <Link href="#">Premium</Link>
+                            <Link href="#">Commands</Link>
                         </div>
                     </div>
                     <div className={styles["footer-option"]}>
                         <span className={"title"}>Other Links</span>
                         <div className={styles["footer-links"]}>
-                            <a href="https://twitter.com/TryLoti">X (Formerly Twitter)</a>
-                            <a href="https://discord.gg/invite/loti">Discord</a>
-                            <a href="#">Top.gg</a>
+                            <Link href="https://twitter.com/TryLoti">X (Formerly Twitter)</Link>
+                            <Link href="https://discord.gg/invite/loti">Discord</Link>
+                            <Link href="#">Top.gg</Link>
                         </div>
                     </div>
                     <div className={styles["footer-option"]}>
                         <span className={"title"}>Rules</span>
                         <div className={styles["footer-links"]}>
-                            <a href="terms">Terms Of Use</a>
-                            <a href="privacy">Privacy Policy</a>
-                            <a href="refund">Refund Policy</a>
+                            <Link href="terms">Terms Of Use</Link>
+                            <Link href="privacy">Privacy Policy</Link>
+                            <Link href="refund">Refund Policy</Link>
                         </div>
                     </div>
                 </div>
