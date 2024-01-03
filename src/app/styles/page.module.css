@@ -201,6 +201,14 @@
     gap: 5rem;
 }
 
+.feature img {
+    transition: all 1s ease-in-out;
+}
+
+.feature img:hover {
+    transform: scale(1.1);
+}
+
 .feature-information {
     display: flex;
     flex-direction: column;

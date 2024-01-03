@@ -1,0 +1,329 @@
+[
+  {
+    "name": "boosters",
+    "category": "util",
+    "description": "Get information about server boosters.",
+    "permission": "none"
+  },
+  {
+    "name": "cat",
+    "aliases": [
+      "cat"
+    ],
+    "description": "Get a random cat image mrrp",
+    "category": "misc",
+    "permission": "none"
+  },
+  {
+    "name": "roll",
+    "category": "Misc",
+    "description": "Roll a dice",
+    "permission": "none"
+  },
+  {
+    "name": "emojis",
+    "category": "util",
+    "description": "Send emojis of the guild as a zip file.",
+    "permission": "Administrator"
+  },
+  {
+    "name": "coinflip",
+    "category": "misc",
+    "description": "Flip a coin and get heads or tails.",
+    "permission": "none"
+  },
+  {
+    "name": "gayrate",
+    "aliases": [
+      "gayrating",
+      "howgay",
+      "gay"
+    ],
+    "category": "misc",
+    "description": "Rate the gayness of a member.",
+    "permission": "none"
+  },
+  {
+    "name": "emojilist",
+    "category": "util",
+    "description": "List all emojis available on the server.",
+    "permission": "none"
+  },
+  {
+    "name": "lookupmc",
+    "category": "games",
+    "description": "Get Minecraft profile information",
+    "permission": "none"
+  },
+  {
+    "name": "newest",
+    "category": "util",
+    "description": "Get the newest account in the server.",
+    "permission": "none"
+  },
+  {
+    "name": "oldest",
+    "category": "util",
+    "description": "Get the oldest account in the server.",
+    "permission": "none"
+  },
+  {
+    "name": "shorten",
+    "category": "util",
+    "description": "Shorten a URL and check for malicious content",
+    "permission": "none"
+  },
+  {
+    "name": "slap",
+    "description": "Slap someone!",
+    "category": "fun",
+    "permission": "none"
+  },
+  {
+    "name": "spotify",
+    "description": "Search for spotify songs",
+    "aliases": [
+      "sp",
+      "song"
+    ],
+    "permission": "none"
+  },
+  {
+    "name": "test",
+    "aliases": [
+      "shards",
+      "shard",
+      "status"
+    ],
+    "permission": "none"
+  },
+  {
+    "name": "uwuify",
+    "description": "meow",
+    "category": "misc",
+    "permission": "none"
+  },
+  {
+    "name": "antinuke",
+    "help": true,
+    "aliases": [
+      "an"
+    ],
+    "syntax": "(subcommand) <args>",
+    "example": "kick on --do ban --threshold 1",
+    "description": "Antinuke protects your server from malicious actors",
+    "permission": "Administrator"
+  },
+  {
+    "name": "banned",
+    "help": true,
+    "category": "Moderation",
+    "aliases": [
+      "ban",
+      "deport",
+      "banish"
+    ],
+    "syntax": "(user) <reason>",
+    "example": "notbruce_. Sending Hentai in #chat",
+    "permission": "BanMembers",
+    "description": "Bans a specified user from the server, with an optional reason."
+  },
+  {
+    "name": "link",
+    "help": true,
+    "aliases": [
+      "link"
+    ],
+    "category": "Misc",
+    "syntax": "(id)",
+    "example": "1159150391334813807",
+    "description": "Link discord URL",
+    "permission": "none"
+  },
+  {
+    "name": "listservers",
+    "description": "Meow meow",
+    "aliases": [
+      "ls",
+      "listallservers",
+      "allservers",
+      "guilds"
+    ],
+    "permission": "none"
+  },
+  {
+    "name": "timeout",
+    "help": true,
+    "aliases": [
+      "mute"
+    ],
+    "syntax": "(user) (time) <reason>",
+    "example": "notbruce_. 1h being a meanie :c",
+    "description": "Timeout a user",
+    "category": "Moderation",
+    "permission": "MuteMembers"
+  },
+  {
+    "name": "nuke",
+    "aliases": [
+      "kaboom",
+      "boom",
+      "nuke"
+    ],
+    "permission": "ManageChannels",
+    "description": "Deletes and clones the channel",
+    "category": "Moderation"
+  },
+  {
+    "name": "purge",
+    "help": true,
+    "aliases": [
+      "clear"
+    ],
+    "permission": "ManageMessages",
+    "syntax": "(amount)",
+    "example": "100",
+    "category": "Moderation",
+    "description": "Purge a specified number of messages from the channel"
+  },
+  {
+    "name": "role",
+    "help": true,
+    "aliases": [
+      "r"
+    ],
+    "syntax": "(subcommand) <args>",
+    "example": "add notbruce_. Staff",
+    "description": "Moderate server roles",
+    "permission": "ManageRoles"
+  },
+  {
+    "name": "selfpurge",
+    "aliases": [
+      "selfclear"
+    ],
+    "category": "Moderation",
+    "description": "Purge a specified number of your messages from the channel",
+    "permission": "none"
+  },
+  {
+    "name": "sticker",
+    "help": true,
+    "syntax": "(subcommand) <args>",
+    "example": "steal",
+    "description": "Modify, Steal or Add Stickers to your server",
+    "permission": "ManageGuild"
+  },
+  {
+    "name": "unban",
+    "help": true,
+    "category": "Moderation",
+    "syntax": "(user)",
+    "example": "notbruce_.",
+    "aliases": [
+      "pardon",
+      "forgive"
+    ],
+    "permission": "BanMembers",
+    "description": "Unbans a user from the server."
+  },
+  {
+    "name": "untimeout",
+    "help": true,
+    "aliases": [
+      "unmute"
+    ],
+    "permission": "ModerateMembers",
+    "syntax": "(user)",
+    "example": "notbruce_.",
+    "description": "Timeout the user",
+    "category": "Misc"
+  },
+  {
+    "name": "voicemaster",
+    "help": true,
+    "aliases": [
+      "vm"
+    ],
+    "syntax": "(subcommand) <args>",
+    "example": "name God.exe",
+    "description": "Make and Control Temporary Voice Channels",
+    "permission": "Administrator"
+  },
+  {
+    "name": "avatar",
+    "help": true,
+    "aliases": [
+      "av"
+    ],
+    "syntax": "(user)",
+    "example": "notbruce_.",
+    "description": "Fetch users avatar",
+    "permission": "none"
+  },
+  {
+    "name": "getbanner",
+    "help": true,
+    "aliases": [
+      "banner"
+    ],
+    "syntax": "(user)",
+    "example": "notbruce_.",
+    "description": "Fetch user's banner",
+    "permission": "none"
+  },
+  {
+    "name": "createembed",
+    "help": true,
+    "aliases": [
+      "ce"
+    ],
+    "syntax": "<args>",
+    "example": "$v{title: Embed}$v{description: Embed Desc}",
+    "permission": "Administrator",
+    "description": "Create Embed Messages"
+  },
+  {
+    "name": "eval",
+    "aliases": [
+      "e"
+    ],
+    "permission": "none"
+  },
+  {
+    "name": "help",
+    "aliases": [
+      "h"
+    ],
+    "permission": "none"
+  },
+  {
+    "name": "ping",
+    "permission": "none"
+  },
+  {
+    "name": "prefix",
+    "help": true,
+    "aliases": [
+      "p"
+    ],
+    "syntax": "(prefix)",
+    "example": ";",
+    "description": "Guild Prefix",
+    "permission": "Administrator"
+  },
+  {
+    "name": "reskin",
+    "permission": "none"
+  },
+  {
+    "name": "serverinfo",
+    "aliases": [
+      "serverinfo",
+      "server",
+      "si"
+    ],
+    "category": "Misc",
+    "permission": "none"
+  }
+]
