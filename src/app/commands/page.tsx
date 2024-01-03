@@ -33,10 +33,15 @@ export default function Refund() {
             <span className={styles["title"]}>Commands (Temp)</span>
             <div className={styles["commands"]}>
                 {commandsList.map((command, index) => (
-                    <div key={index} className={styles["command"]}>
+                    <div
+                        key={index}
+                        className={styles["command"]}
+                        onClick={() => toggleContent(index)}>
                         <div className={styles["command-top-content"]}>
                             <div className={styles["command-details"]}>
                                 <Layers
+                                    width="20px"
+                                    height="20px"
                                     className={
                                         command.showContent ? styles["selected-command"] : ""
                                     }
@@ -48,9 +53,7 @@ export default function Refund() {
                                     </span>
                                 </div>
                             </div>
-                            <button onClick={() => toggleContent(index)}>
-                                <ExpandMoreIcon />
-                            </button>
+                            <ExpandMoreIcon width="20px" height="20px" />
                         </div>
                         {command.showContent && (
                             <motion.div
