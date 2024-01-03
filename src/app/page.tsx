@@ -166,7 +166,57 @@ export default function Home() {
                 transition={{ duration: 0.5 }}
                 id="features"
                 className={styles["feature"]}>
-                <Image src="/blank.svg" alt="blank" width="250" height="450" />
+                <div className={styles["feature-example"]}>
+                    <div className={styles["message"]}>
+                        <div className={styles["message-user"]}>
+                            <img src="/loti-pfp.png" />
+                            <span className={styles["user"]}>Loti</span>
+                            <span className={styles["tag"]}>Bot</span>
+                        </div>
+
+                        <div className={styles["message-content"]}>
+                            Welcome to the server!
+                            <div className={styles["embed"]}>
+                                <div className={styles["embed-main"]}>
+                                    <div className={styles["embed-author"]}>
+                                        <img src="/loti-pfp.png" />
+                                        <span>Embed Author :3</span>
+                                    </div>
+                                    <span className={styles["embed-title"]}>Embed Title :3</span>
+                                    <span className={styles["embed-description"]}>
+                                        Embed description :c
+                                    </span>
+                                    <div className={styles["fields-inline"]}>
+                                        <div className={styles["field"]}>
+                                            <span className={styles["field-name"]}>Title</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
+                                        </div>
+                                        <div className={styles["field"]}>
+                                            <span className={styles["field-name"]}>Title</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
+                                        </div>
+                                        <div className={styles["field"]}>
+                                            <span className={styles["field-name"]}>Title</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
+                                        </div>
+                                        <div className={styles["field"]}>
+                                            <span className={styles["field-name"]}>Title</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className={styles["feature-information"]}>
                     <div className={styles["feature-icon"]}>
                         <div className={styles["feature-icon-left"]}>
@@ -216,7 +266,46 @@ export default function Home() {
                     </p>
                     <a href="#learn">Learn More About Embed Messages</a>
                 </div>
-                <Image src="/blank.svg" alt="blank" width="250" height="450" />
+                <div className={styles["feature-example"]}>
+                    <div className={styles["message"]}>
+                        <div className={styles["message-content"]}>
+                            <div className={styles["embed"]}>
+                                <div className={styles["embed-main"]}>
+                                    <span className={styles["embed-title"]}>Embed Title :3</span>
+                                    <span className={styles["embed-description"]}>
+                                        Embed description :c
+                                    </span>
+                                    <div className={styles["fields-inline"]}>
+                                        <div className={styles["field"]}>
+                                            <span className={styles["field-name"]}>Title</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
+                                        </div>
+                                        <div className={styles["field"]}>
+                                            <span className={styles["field-name"]}>Title</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
+                                        </div>
+                                        <div className={styles["field"]}>
+                                            <span className={styles["field-name"]}>Title</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
+                                        </div>
+                                        <div className={styles["field"]}>
+                                            <span className={styles["field-name"]}>Title</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>{" "}
             </motion.div>
             <motion.div
                 ref={ref2}
@@ -225,7 +314,46 @@ export default function Home() {
                 transition={{ duration: 0.5 }}
                 id="features"
                 className={styles["feature"]}>
-                <Image src="/blank.svg" alt="blank" width="250" height="450" />
+                <div className={styles["feature-example"]}>
+                    <div className={styles["message"]}>
+                        <div className={styles["message-content"]}>
+                            <div className={styles["embed"]}>
+                                <div className={styles["embed-main"]}>
+                                    <span className={styles["embed-title"]}>Embed Title :3</span>
+                                    <span className={styles["embed-description"]}>
+                                        Embed description :c
+                                    </span>
+                                    <div className={styles["fields-inline"]}>
+                                        <div className={styles["field"]}>
+                                            <span className={styles["field-name"]}>Title</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
+                                        </div>
+                                        <div className={styles["field"]}>
+                                            <span className={styles["field-name"]}>Title</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
+                                        </div>
+                                        <div className={styles["field"]}>
+                                            <span className={styles["field-name"]}>Title</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
+                                        </div>
+                                        <div className={styles["field"]}>
+                                            <span className={styles["field-name"]}>Title</span>
+                                            <span className={styles["field-description"]}>
+                                                Value
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className={styles["feature-information"]}>
                     <div className={styles["feature-icon"]}>
                         <div className={styles["feature-icon-left"]}>

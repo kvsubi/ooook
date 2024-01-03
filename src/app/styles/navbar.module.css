@@ -23,6 +23,22 @@
     gap: 2em;
 }
 
+.navbar-right img {
+    border-radius: 100%;
+}
+
+.navbar-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1em;
+}
+
+.username {
+    font-weight: 750;
+}
+
 .navbar-link {
     font-weight: 600;
     color: #ffffffcc;

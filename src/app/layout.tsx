@@ -4,6 +4,7 @@ import "./styles/globals.css"
 import Navbar from "./components/global/Navbar"
 import Footer from "./components/global/Footer"
 import Canvas from "./components/global/Canvas"
+import NextAuthProvider from "@/app/context/NextAuthProvider"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -26,10 +27,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <meta property="og:image" content="/loti-pfp.png" />
             </head>
             <body className={"loti"}>
-                <Navbar />
-                {children}
-                <Footer />
-                <Canvas />
+                <NextAuthProvider>
+                    <Navbar />
+                    {children}
+                    <Footer />
+                    <Canvas />
+                </NextAuthProvider>
             </body>
         </html>
     )
