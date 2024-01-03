@@ -7,6 +7,7 @@ import { signIn, useSession } from "next-auth/react"
 import { signOut } from "next-auth/react"
 import { useState } from "react"
 
+// @ts-ignore
 const Navbar = () => {
     const { data: session } = useSession()
     const [isDropdownOpen, setDropdownOpen] = useState(false)
@@ -43,6 +44,7 @@ const Navbar = () => {
                                 onMouseEnter={() => setDropdownOpen(!isDropdownOpen)}
                                 onMouseLeave={() => setDropdownOpen(!isDropdownOpen)}
                             />
+                            
                             <span className={styles["username"]}>{session?.discordUser.global_name ?? "Not Found"}</span>
                         </div>
                     ) : (
