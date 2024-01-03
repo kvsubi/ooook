@@ -11,6 +11,8 @@ import { useState } from "react"
 const Navbar = () => {
     const { data: session } = useSession()
     const [isDropdownOpen, setDropdownOpen] = useState(false)
+    // @ts-ignore
+    const username = session?.discordUser.global_name
 
     return (
         <>
@@ -45,7 +47,7 @@ const Navbar = () => {
                                 onMouseLeave={() => setDropdownOpen(!isDropdownOpen)}
                             />
                             
-                            <span className={styles["username"]}>{session?.discordUser.global_name ?? "Not Found"}</span>
+                            <span className={styles["username"]}>{username ?? "Not Found"}</span>
                         </div>
                     ) : (
                         <div className={styles["navbar-login"]} onClick={() => signIn("discord")}>
