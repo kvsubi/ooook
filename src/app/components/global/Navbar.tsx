@@ -35,7 +35,9 @@ const Navbar = () => {
                         <Image src="/stars.png" width="20" height="20" alt="stars" />
                     </Link>
                 </div>
-                <div className={styles["navbar-right"]}>
+                <div
+                    className={styles["navbar-right"]}
+                    onClick={() => setDropdownOpen(!isDropdownOpen)}>
                     {session ? (
                         <div className={styles["navbar-user"]}>
                             <Image
@@ -43,10 +45,8 @@ const Navbar = () => {
                                 width="50"
                                 height="50"
                                 alt="profile picture"
-                                onMouseEnter={() => setDropdownOpen(!isDropdownOpen)}
-                                onMouseLeave={() => setDropdownOpen(!isDropdownOpen)}
                             />
-                            
+
                             <span className={styles["username"]}>{username ?? "Not Found"}</span>
                         </div>
                     ) : (
@@ -56,7 +56,42 @@ const Navbar = () => {
                     )}
                 </div>
             </div>
-            {isDropdownOpen && <div className={styles["dropdown"]}>a</div>}
+            {isDropdownOpen && (
+                <div className={styles["dropdown"]}>
+                    <div className={styles["dropdown-content-inner"]}>
+                        <Link
+                            href="/dashboard"
+                            className={styles["dropdown-link"]}
+                            onClick={() => setDropdownOpen(!isDropdownOpen)}>
+                            Dashboard
+                        </Link>
+                        <Link
+                            href="https://discord.gg/invite/loti"
+                            className={styles["dropdown-link"]}
+                            onClick={() => setDropdownOpen(!isDropdownOpen)}>
+                            Support
+                        </Link>
+                        <Link
+                            href="/commands"
+                            className={styles["dropdown-link"]}
+                            onClick={() => setDropdownOpen(!isDropdownOpen)}>
+                            Commands
+                        </Link>
+                        <Link
+                            href="https://docs.loti.dev/"
+                            className={styles["dropdown-link"]}
+                            onClick={() => setDropdownOpen(!isDropdownOpen)}>
+                            Docs
+                        </Link>
+                    </div>
+                    <hr />
+                    <div className={styles["dropdown-content-inner"]}>
+                        <div className={styles["dropdown-logout"]} onClick={() => signOut()}>
+                            <span>Logout</span>
+                        </div>
+                    </div>
+                </div>
+            )}
         </>
     )
 }
