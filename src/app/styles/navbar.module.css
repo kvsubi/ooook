@@ -90,6 +90,8 @@
     padding-top: 0.8em;
 
     backdrop-filter: blur(10px);
+
+    z-index: 90;
 }
 
 .dropdown hr {
