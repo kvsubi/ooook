@@ -1,0 +1,146 @@
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5em;
+
+    padding-bottom: 10em;
+    padding-top: 5em;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    font-weight: 800px;
+    font-size: 45px;
+}
+
+.section-description {
+    width: 50ch;
+
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+
+    gap: 4em;
+}
+
+.option {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #171821c0;
+
+    border: 1px solid #1e202c;
+
+    border-radius: 8px;
+
+    height: 450px;
+    width: 450px;
+
+    justify-content: space-between;
+
+    padding-bottom: 1em;
+}
+
+.bright {
+    border: 2px solid #726fff9c;
+}
+
+.option-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+    padding: 2.4em 2em;
+}
+
+.option-title {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.option-description {
+    font-weight: 500;
+    font-size: 15px;
+
+    color: rgba(207, 214, 255, 0.507);
+}
+
+.option-information {
+    padding-top: 2em;
+    font-weight: 500;
+    font-size: 15px;
+
+    color: rgba(207, 214, 255, 0.507);
+}
+
+.option-pricing {
+    display: flex;
+    gap: 1em;
+
+    align-items: flex-end;
+}
+
+.option-price {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.option-duration {
+    font-weight: 400;
+    font-size: 20px;
+
+    color: rgba(207, 214, 255, 0.507);
+}
+
+.option-get {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 1em;
+}
+
+.button {
+    width: 80%;
+
+    text-align: center;
+    padding: 0.5em 0em;
+    border-radius: 4px;
+
+    background-color: rgb(32, 33, 43);
+}
+
+.button-lifetime {
+    width: 80%;
+
+    text-align: center;
+    padding: 0.5em 0em;
+    border-radius: 4px;
+
+    background-color: #726fff9c;
+}
+
+.most-popular {
+    position: absolute;
+    top: -17px;
+    right: -25px;
+
+    background-color: #716fff;
+
+    padding: 0.5em 2em;
+    border-radius: 50px;
+}
