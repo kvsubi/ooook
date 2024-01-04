@@ -5,9 +5,9 @@ export default function Refund() {
     return (
         <section className={styles["content"]}>
             <div className={styles["top-section"]}>
-                <span className={styles["section-title"]}>Loti Premium</span>
+                <span className={styles["section-title"]}>Loti</span>
                 <span className={styles["section-description"]}>
-                    Loti Premium provides powerful features for antinuke protection, efficient
+                    Loti provides powerful features for antinuke protection, efficient
                     moderation, and more.
                 </span>
             </div>
