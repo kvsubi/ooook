@@ -27,9 +27,7 @@ const Navbar = () => {
     }, [isDropdownOpen]) // Add isDropdownOpen as a dependency
 
     const handleDropdownClick = () => {
-        console.log("OPENasdING")
         if (session) {
-            console.log("OPENING")
             setDropdownOpen(!isDropdownOpen)
         }
     }
