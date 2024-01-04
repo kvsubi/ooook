@@ -159,7 +159,7 @@
 
     .option {
         width: 400px;
-        height: 400px;
+        height: 4500px;
     }
 
     .most-popular {
@@ -170,7 +170,7 @@
 @media screen and (max-width: 400px) {
     .option {
         width: 300px;
-        height: 400px;
+        height: 450px;
     }
 
     .most-popular {
