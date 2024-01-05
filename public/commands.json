@@ -115,7 +115,7 @@
     "permission": "Administrator"
   },
   {
-    "name": "banned",
+    "name": "ban",
     "help": true,
     "category": "Moderation",
     "aliases": [
@@ -127,29 +127,6 @@
     "example": "notbruce_. Sending Hentai in #chat",
     "permission": "BanMembers",
     "description": "Bans a specified user from the server, with an optional reason."
-  },
-  {
-    "name": "link",
-    "help": true,
-    "aliases": [
-      "link"
-    ],
-    "category": "Misc",
-    "syntax": "(id)",
-    "example": "1159150391334813807",
-    "description": "Link discord URL",
-    "permission": "none"
-  },
-  {
-    "name": "listservers",
-    "description": "Meow meow",
-    "aliases": [
-      "ls",
-      "listallservers",
-      "allservers",
-      "guilds"
-    ],
-    "permission": "none"
   },
   {
     "name": "timeout",
