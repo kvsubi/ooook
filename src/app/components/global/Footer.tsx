@@ -14,8 +14,8 @@ const Footer = () => {
                     </Link>
                     <div className={styles["footer-description"]}>
                         <span>
-                            A very customizable multipurpose bot for welcome image, In-depth logs,
-                            Social commands, Moderation and many more ...
+                            Loti is a versatile bot, offering features like moderation, social
+                            commands, and much more, making it perfect for all your server needs.
                         </span>
                     </div>
                 </div>

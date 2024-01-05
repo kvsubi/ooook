@@ -145,7 +145,6 @@
     border-radius: 50px;
 }
 
-
 @media screen and (max-width: 1050px) {
     .options {
         flex-direction: column;

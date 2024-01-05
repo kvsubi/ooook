@@ -7,8 +7,8 @@ export default function Refund() {
             <div className={styles["top-section"]}>
                 <span className={styles["section-title"]}>Loti</span>
                 <span className={styles["section-description"]}>
-                    Loti provides powerful features for antinuke protection, efficient
-                    moderation, and more.
+                    Loti provides powerful features for antinuke protection, efficient moderation,
+                    and more.
                 </span>
             </div>
 
