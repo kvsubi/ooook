@@ -1,4 +1,4 @@
-# loti.dev.bot
+# loti.dev.web
 <img src="/media/loti-background.png" />
 
 # Setup
