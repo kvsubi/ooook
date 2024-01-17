@@ -79,6 +79,10 @@ a {
     text-decoration: none;
 }
 
+span, p, h1, h2, h3, h4, h5, h6, a, button, input, label, li, div, input, textarea, select, option, summary, details, summary:focus, details:focus {
+    color: white;
+}
+
 button,
 input[type="submit"],
 input[type="reset"] {

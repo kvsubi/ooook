@@ -15,7 +15,7 @@ const Navbar = () => {
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
             if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-                setDropdownOpen(!isDropdownOpen) // Toggle the dropdown state
+                setDropdownOpen(!isDropdownOpen) 
             }
         }
 
@@ -24,7 +24,7 @@ const Navbar = () => {
         return () => {
             document.removeEventListener("click", handleClickOutside)
         }
-    }, [isDropdownOpen]) // Add isDropdownOpen as a dependency
+    }, [isDropdownOpen]) 
 
     const handleDropdownClick = () => {
         if (session) {
