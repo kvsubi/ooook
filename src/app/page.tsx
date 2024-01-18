@@ -16,19 +16,16 @@ export default function Home() {
     return (
         <div className={"content"}>
             <div className={styles["main-content"]}>
-                <div className={styles["main-new"]}>
-                    <p>New: Bot Re-Written in TypeScript</p>
-                </div>
-                <h1 className={styles["title"]}>Loti, A Multi-Purpose Bot.</h1>
+                <h1 className={styles["title"]}>Grief, A Multi-Purpose Bot.</h1>
                 <p className={styles["description"]}>
-                    Loti is a versatile bot, offering features like moderation, social commands, and
+                    Grief is a versatile bot, offering features like moderation, social commands, and
                     much more, making it perfect for all your server needs.
                 </p>
                 <div className={styles["buttons"]}>
-                    <a href="https://discord.gg/invite/loti" className={styles["add"]}>
+                    <a href="https://discord.gg/invite/seer" className={styles["add"]}>
                         Support Server
                     </a>
-                    <a href="#features" className={styles["browse"]}>
+                    <a href="#commands" className={styles["browse"]}>
                         Browse Features
                     </a>
                 </div>
@@ -36,7 +33,7 @@ export default function Home() {
 
             <div className={styles["trusted-by-section"]}>
                 <h2 className={styles["trusted-by-title"]}>
-                    Trusted by over <span className={styles["white"]}>50</span> discord servers,
+                    Trusted by over <span className={styles["white"]}>250</span> discord servers,
                     including:
                 </h2>
                 <div className={styles["server-slider"]}>
@@ -45,7 +42,7 @@ export default function Home() {
                         <div className={styles["slider-items"]}>
                             <div className={styles["server-item"]}>
                                 <Image
-                                    src="/raidhub.webp"
+                                    src="/since.webp"
                                     alt="Server 1"
                                     width="50"
                                     height="50"
@@ -53,7 +50,7 @@ export default function Home() {
                                 />
                                 <div className={styles["server-info"]}>
                                     <p className={styles["server-name"]}>
-                                        RaidHub{" "}
+                                        since{" "}
                                         <Image
                                             src="/discord.svg"
                                             alt="S"
@@ -62,12 +59,12 @@ export default function Home() {
                                             height="50"
                                         />
                                     </p>
-                                    <p className={styles["member-count"]}>1,500 members</p>
+                                    <p className={styles["member-count"]}>34,000+ members</p>
                                 </div>
                             </div>
                             <div className={styles["server-item"]}>
                                 <Image
-                                    src="/lowmanhub.gif"
+                                    src="/yor.webp"
                                     alt="Server 2"
                                     width="50"
                                     height="50"
@@ -75,7 +72,7 @@ export default function Home() {
                                 />
                                 <div className={styles["server-info"]}>
                                     <p className={styles["server-name"]}>
-                                        Lowman Hub
+                                        yor
                                         <Image
                                             src="/discord.svg"
                                             alt="S"
@@ -84,12 +81,12 @@ export default function Home() {
                                             height="50"
                                         />
                                     </p>
-                                    <p className={styles["member-count"]}>1,000 members</p>
+                                    <p className={styles["member-count"]}>13,000+ members</p>
                                 </div>
                             </div>
                             <div className={styles["server-item"]}>
                                 <Image
-                                    src="/femboy.webp"
+                                    src="/mew.gif"
                                     alt="Server 3"
                                     width="50"
                                     height="50"
@@ -97,7 +94,7 @@ export default function Home() {
                                 />
                                 <div className={styles["server-info"]}>
                                     <p className={styles["server-name"]}>
-                                        femboyclub
+                                        mew
                                         <Image
                                             src="/discord.svg"
                                             alt="S"
@@ -106,7 +103,7 @@ export default function Home() {
                                             height="50"
                                         />
                                     </p>
-                                    <p className={styles["member-count"]}>2,800 members</p>
+                                    <p className={styles["member-count"]}>27,000+ members</p>
                                 </div>
                             </div>
                             <div className={styles["server-item"]}>
@@ -128,12 +125,12 @@ export default function Home() {
                                             height="50"
                                         />
                                     </p>
-                                    <p className={styles["member-count"]}>2,400 members</p>
+                                    <p className={styles["member-count"]}>2,400+ members</p>
                                 </div>
                             </div>
                             <div className={styles["server-item"]}>
                                 <Image
-                                    src="/loti.webp"
+                                    src="/a_772b6ba59688cc4ba90609db5eb85f97.gif"
                                     alt="Server 5"
                                     width="50"
                                     height="50"
@@ -141,7 +138,7 @@ export default function Home() {
                                 />
                                 <div className={styles["server-info"]}>
                                     <p className={styles["server-name"]}>
-                                        Loti
+                                        doves
                                         <Image
                                             src="/discord.svg"
                                             alt="S"
@@ -150,7 +147,7 @@ export default function Home() {
                                             height="50"
                                         />
                                     </p>
-                                    <p className={styles["member-count"]}>50 members</p>
+                                    <p className={styles["member-count"]}>2,500+ members</p>
                                 </div>
                             </div>
                         </div>
@@ -169,8 +166,8 @@ export default function Home() {
                 <div className={styles["feature-example"]}>
                     <div className={styles["message"]}>
                         <div className={styles["message-user"]}>
-                            <img src="/loti-pfp.png" />
-                            <span className={styles["user"]}>Loti</span>
+                            <img src="/grief.png" />
+                            <span className={styles["user"]}>grief</span>
                             <span className={styles["tag"]}>Bot</span>
                         </div>
 
@@ -232,10 +229,10 @@ export default function Home() {
                     </div>
                     <h1>Let&apos;s Welcome New Members With Style</h1>
                     <p>
-                        Welcome new members in style with Loti! Our feature-rich platform allows you
+                        Welcome new members in style with Grief! Our feature-rich platform allows you
                         to create stunning welcome messages that leave a lasting impression
                     </p>
-                    <a href="#learn">Learn More About Welcome & Goodbye</a>
+                    <a href="#commands">Learn More About Welcome & Goodbye</a>
                 </div>
             </motion.div>
             <motion.div
@@ -260,11 +257,11 @@ export default function Home() {
                     </div>
                     <h1>Easily create embeds for your server!</h1>
                     <p>
-                        Loti offers a simple yet powerful embed customization feature that allows
+                        Grief offers a simple yet powerful embed customization feature that allows
                         you to showcase your creativity. With just a few clicks, you can design
                         visually appealing embed messages and send them to your preferred channels.
                     </p>
-                    <a href="#learn">Learn More About Embed Messages</a>
+                    <a href="#commands">Learn More About Embed Messages</a>
                 </div>
                 <div className={styles["feature-example"]}>
                     <div className={styles["message"]}>
@@ -372,7 +369,7 @@ export default function Home() {
                         Our advanced moderation tools provide powerful capabilities for effectively
                         managing and moderating your server.
                     </p>
-                    <a href="#learn">Learn More About Moderation Tools</a>
+                    <a href="#commands">Learn More About Moderation Tools</a>
                 </div>
             </motion.div>
         </div>

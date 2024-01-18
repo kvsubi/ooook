@@ -9,9 +9,9 @@ import NextAuthProvider from "@/app/context/NextAuthProvider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-    title: "Loti",
+    title: "Grief",
     description:
-        "Loti is a versatile bot, offering features like moderation, social commands, and much more, making it perfect for all your server needs."
+        "Grief is a versatile bot, offering features like moderation, social commands, and much more, making it perfect for all your server needs."
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
                     rel="stylesheet"
                 />
-                <meta property="og:image" content="/loti-pfp.png" />
+                <meta property="og:image" content="/grief.png" />
             </head>
             <body className={"loti"}>
                 <NextAuthProvider>

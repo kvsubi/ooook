@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react"
 import styles from "../../styles/navbar.module.css"
 import Image from "next/image"
 import Link from "next/link"
-import Loti from "../../../../public/loti-pfp.png"
+import Loti from "../../../../public/grief.png"
 import { signIn, useSession } from "next-auth/react"
 import { signOut } from "next-auth/react"
 
@@ -33,7 +33,6 @@ const Navbar = () => {
     }
 
     // @ts-ignore
-    const username = session?.discordUser.global_name
 
     return (
         <>
@@ -41,7 +40,7 @@ const Navbar = () => {
                 <div className={styles["navbar-left"]}>
                     <Link href="/">
                         <Image src={Loti} width="50" height="50" alt="logo" />
-                        <span>Loti</span>
+                        <span>Grief</span>
                     </Link>
                 </div>
                 <div className={styles["navbar-center"]}>
@@ -49,40 +48,17 @@ const Navbar = () => {
                         <Link href="/commands">Commands</Link>
                     </div>
                     <div className={styles["navbar-link"]}>
-                        <Link href="/resources">Resources</Link>
+                        <Link href="https://embeds.grief.cloud">Embeds</Link>
                     </div>
-                    <Link href="/purchase" className={styles["navbar-premium"]}>
-                        <span>Purchase</span>
+                    <Link href="https://discord.com/api/oauth2/authorize?client_id=716939297009434656&permissions=8&scope=applications.commands%20bot" className={styles["navbar-premium"]}>
+                        <span>Invite Me</span>
                         <Image src="/stars.png" width="20" height="20" alt="stars" />
                     </Link>
-                </div>
-                <div className={styles["navbar-right"]} onClick={handleDropdownClick}>
-                    {session ? (
-                        <div className={styles["navbar-user"]}>
-                            <Image
-                                src={session?.user?.image ?? ""}
-                                width="50"
-                                height="50"
-                                alt="profile picture"
-                            />
-                            <span className={styles["username"]}>{username ?? "Not Found"}</span>
-                        </div>
-                    ) : (
-                        <div className={styles["navbar-login"]} onClick={() => signIn("discord")}>
-                            Login
-                        </div>
-                    )}
                 </div>
             </div>
             {isDropdownOpen && (
                 <div className={styles["dropdown"]} ref={dropdownRef}>
                     <div className={styles["dropdown-content-inner"]}>
-                        <Link
-                            href="/dashboard"
-                            className={styles["dropdown-link"]}
-                            onClick={() => setDropdownOpen(!isDropdownOpen)}>
-                            Dashboard
-                        </Link>
                         <Link
                             href="https://discord.gg/invite/loti"
                             className={styles["dropdown-link"]}
@@ -96,7 +72,7 @@ const Navbar = () => {
                             Commands
                         </Link>
                         <Link
-                            href="https://docs.loti.dev/"
+                            href="https://docs.grief.cloud/"
                             className={styles["dropdown-link"]}
                             onClick={() => setDropdownOpen(!isDropdownOpen)}>
                             Docs

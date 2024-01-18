@@ -13,6 +13,8 @@ export default function Refund() {
             category: command.category,
             description: command.description,
             permission: command.permission,
+            aliases: command.aliases,
+            category: command.category,
             showContent: false // Add showContent property to track individual div's content visibility
         }))
     )
@@ -30,7 +32,7 @@ export default function Refund() {
 
     return (
         <section className={styles["content"]}>
-            <span className={styles["title"]}>Commands (Temp)</span>
+            <span className={styles["title"]}>Commands</span>
             <div className={styles["commands"]}>
                 {commandsList.map((command, index) => (
                     <div
@@ -63,10 +65,20 @@ export default function Refund() {
                                 className={styles["command-content-bottom"]}>
                                 <div className={styles["command-section-outer"]}>
                                     <span className={styles["command-section-title"]}>
-                                        Arguments:
+                                        Aliases:
                                     </span>
                                     <div className={styles["command-section"]}>
-                                        <span className={styles["command-argument"]}>none</span>
+                                        <span className={styles["command-section"]}></span>
+                                        {command.aliases ? command.aliases : "none"}
+                                    </div>
+                                </div>
+                                <div className={styles["command-section-outer"]}>
+                                    <span className={styles["command-section-title"]}>
+                                    Category:
+                                    </span>
+                                    <div className={styles["command-section"]}>
+                                        <span className={styles["command-section"]}></span>
+                                        {command.category ? command.category : "none"}
                                     </div>
                                 </div>
                                 <div className={styles["command-section-outer"]}>
