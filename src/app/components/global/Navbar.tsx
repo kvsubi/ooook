@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react"
 import styles from "../../styles/navbar.module.css"
 import Image from "next/image"
 import Link from "next/link"
-import Loti from "../../../../public/grief.png"
+import Loti from "../../../../public/coco.png"
 import { signIn, useSession } from "next-auth/react"
 import { signOut } from "next-auth/react"
 
@@ -40,17 +40,17 @@ const Navbar = () => {
                 <div className={styles["navbar-left"]}>
                     <Link href="/">
                         <Image src={Loti} width="50" height="50" alt="logo" />
-                        <span>Grief</span>
+                        <span>coco</span>
                     </Link>
-                </div>
+                    </div>
                 <div className={styles["navbar-center"]}>
                     <div className={styles["navbar-link"]}>
-                        <Link href="/commands">Commands</Link>
+                        <Link href="https://discord.gg/injoy">Discord</Link>
                     </div>
                     <div className={styles["navbar-link"]}>
-                        <Link href="https://embeds.grief.cloud">Embeds</Link>
+                        <Link href="https://embeds.hellcat.lol">Embeds</Link>
                     </div>
-                    <Link href="https://discord.com/api/oauth2/authorize?client_id=716939297009434656&permissions=8&scope=applications.commands%20bot" className={styles["navbar-premium"]}>
+                    <Link href="https://discord.com/oauth2/authorize?client_id=1227709062003687516&permissions=8&scope=bot%20applications.commands" className={styles["navbar-premium"]}>
                         <span>Invite Me</span>
                         <Image src="/stars.png" width="20" height="20" alt="stars" />
                     </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
                 <div className={styles["dropdown"]} ref={dropdownRef}>
                     <div className={styles["dropdown-content-inner"]}>
                         <Link
-                            href="https://discord.gg/invite/loti"
+                            href="https://discord.gg/invite/injoy"
                             className={styles["dropdown-link"]}
                             onClick={() => setDropdownOpen(!isDropdownOpen)}>
                             Support
@@ -72,7 +72,7 @@ const Navbar = () => {
                             Commands
                         </Link>
                         <Link
-                            href="https://docs.grief.cloud/"
+                            href="https://docs.hellcat.lol/"
                             className={styles["dropdown-link"]}
                             onClick={() => setDropdownOpen(!isDropdownOpen)}>
                             Docs

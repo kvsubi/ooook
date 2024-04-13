@@ -1,7 +1,7 @@
 import styles from "../../styles/footer.module.css"
 import Image from "next/image"
 import Link from "next/link"
-import grief from "../../../../public/grief.png"
+import coco from "../../../../public/coco.png"
 
 const Footer = () => {
     return (
@@ -9,13 +9,12 @@ const Footer = () => {
             <div className={styles["footer-content"]}>
                 <div className={styles["footer-left"]}>
                     <Link href="/">
-                        <Image src={grief} width="50" height="50" alt="logo" />
-                        <span>Grief</span>
+                        <Image src={coco} width="50" height="50" alt="logo" />
+                        <span>coco</span>
                     </Link>
                     <div className={styles["footer-description"]}>
                         <span>
-                            Grief is a versatile bot, offering features like moderation, social
-                            commands, and much more, making it perfect for all your server needs.
+                        Coco is not just your ordinary bot; it's your gateway to a plethora of functionalities, seamlessly integrated into your Discord server. With Coco by your side, your server experiences a whole new level of engagement and utility.
                         </span>
                     </div>
                 </div>
@@ -23,16 +22,16 @@ const Footer = () => {
                     <div className={styles["footer-option"]}>
                         <span className={"title"}>Website Pages</span>
                         <div className={styles["footer-links"]}>
-                            <Link href="https://embeds.grief.cloud">Embeds</Link>
-                            <Link href="https://docs.grief.cloud">Docs</Link>
+                            <Link href="https://embeds.hellcat.lol">Embeds</Link>
+                            <Link href="https://docs.hellcat.lol">Docs</Link>
                             <Link href="#">Commands</Link>
                         </div>
                     </div>
                     <div className={styles["footer-option"]}>
                         <span className={"title"}>Other Links</span>
                         <div className={styles["footer-links"]}>
-                            <Link href="https://twitter.com/evincement_"> Twitter</Link>
-                            <Link href="https://discord.gg/invite/seer">Discord</Link>
+                            <Link href="https://twitter.com/vlx9000"> Twitter</Link>
+                            <Link href="https://discord.gg/invite/injoy">Discord</Link>
                             <Link href="#">Top.gg</Link>
                         </div>
                     </div>
