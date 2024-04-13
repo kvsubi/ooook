@@ -10,7 +10,6 @@ export default function Refund() {
     const [commandsList, setCommandsList] = useState(
         commandsData.map(command => ({
             name: command.name,
-            category: command.category,
             description: command.description,
             permission: command.permission,
             aliases: command.aliases,
