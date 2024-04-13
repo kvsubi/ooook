@@ -123,8 +123,7 @@
     "name": "boosters",
     "category": "info",
     "description": "List all server boosters.",
-    "permission": null,
-    "aliases": null
+    "permission": null
   },
   {
     "name": "webshot",
@@ -151,38 +150,31 @@
     "name": "server",
     "category": "info",
     "description": "Show server information.",
-    "permission": null,
-    "aliases": null
+    "permission": null
   },
   {
     "name": "afk",
     "category": "utility",
     "description": "Set or remove your AFK status.",
-    "permission": null,
-    "aliases": null
+    "permission": null
   },
   {
     "name": "pastusernames",
     "category": "info",
     "description": "Show a user's past usernames.",
-    "permission": null,
-    "aliases": null
+    "permission": null
   },
   {
     "name": "blacktea",
     "category": "game",
-    "description": "
-
-Word game description here.",
-    "permission": null,
-    "aliases": null
+    "description": "Word game description here.",
+    "permission": null
   },
   {
     "name": "role",
     "category": "mod",
     "description": "Assign or remove a role from a user.",
-    "permission": "manage roles",
-    "aliases": null
+    "permission": "manage roles"
   },
   {
     "name": "lock",
@@ -274,8 +266,7 @@ Word game description here.",
     "name": "topalbums",
     "category": "music",
     "description": "Show top albums from LastFM.",
-    "permission": null,
-    "aliases": null
+    "permission": null
   },
   {
     "name": "globalwhoknows",
@@ -295,7 +286,6 @@ Word game description here.",
     "name": "lastfm remove",
     "category": "music",
     "description": "Remove LastFM account association.",
-    "permission": null,
-    "aliases": null
+    "permission": null
   }
 ]
