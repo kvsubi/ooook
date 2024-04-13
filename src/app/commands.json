@@ -4,12 +4,14 @@
     "category": "info",
     "description": "Display information about the bot.",
     "permission": null
+    "aliases": bi
   },
   {
     "name": "invite",
     "category": "info",
     "description": "Generate an invite link for the bot.",
     "permission": null
+    "aliases": inv
   },
   {
     "name": "help",
@@ -34,12 +36,14 @@
     "category": "info",
     "description": "Show information about a user.",
     "permission": null
+    "aliases": ui
   },
   {
     "name": "profileicon",
     "category": "info",
     "description": "Grab the profile and icon from a user.",
     "permission": null
+    "aliases": pi
   },
   {
     "name": "ben",
@@ -52,6 +56,7 @@
     "category": "music",
     "description": "Show currently playing Spotify song.",
     "permission": null
+    "aliases": sp
   },
   {
     "name": "avatar",
@@ -112,60 +117,70 @@
     "category": "info",
     "description": "Get an invite link for the bot.",
     "permission": null
+    "aliases": inv
   },
   {
     "name": "boosters",
     "category": "info",
     "description": "List all server boosters.",
     "permission": null
+    "aliases": null
   },
   {
     "name": "webshot",
     "category": "utility",
     "description": "Take a screenshot of a website.",
     "permission": null
+    "aliases": ws
   },
   {
     "name": "tiktok",
     "category": "utility",
     "description": "Download a TikTok video.",
     "permission": null
+    "aliases": tt
   },
   {
     "name": "translate",
     "category": "utility",
     "description": "Translate text to another language.",
     "permission": null
+    "aliases": tr
   },
   {
     "name": "server",
     "category": "info",
     "description": "Show server information.",
     "permission": null
+    "aliases": null
   },
   {
     "name": "afk",
     "category": "utility",
     "description": "Set or remove your AFK status.",
     "permission": null
+    "aliases": null
   },
   {
     "name": "pastusernames",
     "category": "info",
     "description": "Show a user's past usernames.",
     "permission": null
+    "aliases": null
   },
   {
     "name": "blacktea",
     "category": "game",
     "description": "Word game description here.",
     "permission": null
+    "aliases": null
   },
   {
     "name": "role",
     "category": "mod",
     "description": "Assign or remove a role from a user.",
     "permission": "manage roles"
+    "aliases": null
   },
   {
     "name": "lock",
@@ -238,6 +253,7 @@
     "category": "music",
     "description": "Show the currently playing track.",
     "permission": null
+    "aliases": np
   },
   {
     "name": "lastfm customcommand",
@@ -250,29 +266,34 @@
     "category": "music",
     "description": "Show top artists from LastFM.",
     "permission": null
+    "aliases": tt
   },
   {
     "name": "topalbums",
     "category": "music",
     "description": "Show top albums from LastFM.",
     "permission": null
+    "aliases": null
   },
   {
     "name": "globalwhoknows",
     "category": "music",
     "description": "Show who knows a song globally.",
     "permission": null
+    "aliases": gwk
   },
   {
     "name": "whoknows",
     "category": "music",
     "description": "Show who knows a song in the server.",
     "permission": null
+    "aliases": wk
   },
   {
     "name": "lastfm remove",
     "category": "music",
     "description": "Remove LastFM account association.",
     "permission": null
+    "aliases": null
   }
 ]
