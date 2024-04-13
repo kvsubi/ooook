@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react"
 import styles from ".//styles/commands.module.css"
-import commandsData from "ooook/src/app/commands.json"
+import commandsData from ".//src/app/commands.json"
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 import { Layers } from "@material-ui/icons"
 import { motion } from "framer-motion"
