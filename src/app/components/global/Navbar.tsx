@@ -45,7 +45,7 @@ const Navbar = () => {
                     </div>
                 <div className={styles["navbar-center"]}>
                     <div className={styles["navbar-link"]}>
-                        <Link href="https://discord.gg/injoy">Discord</Link>
+                        <Link href="https://discord.gg/kaga">Discord</Link>
                     </div>
                     <div className={styles["navbar-link"]}>
                         <Link href="https://embeds.hellcat.lol">Embeds</Link>
