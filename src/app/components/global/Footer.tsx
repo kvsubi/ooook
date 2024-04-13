@@ -31,8 +31,7 @@ const Footer = () => {
                         <span className={"title"}>Other Links</span>
                         <div className={styles["footer-links"]}>
                             <Link href="https://twitter.com/vlx9000"> Twitter</Link>
-                            <Link href="https://discord.gg/invite/injoy">Discord</Link>
-                            <Link href="#">Top.gg</Link>
+                            <Link href="https://discord.gg/invite/kaga">Discord</Link>
                         </div>
                     </div>
                     <div className={styles["footer-option"]}>
